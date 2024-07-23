@@ -3,26 +3,25 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <div className='flex justify-between p-2 bg-[#333] sticky top-0'>
-      <div className='w-36 ml-10'>
-        <h1 className='text-white text-base'>solo with someone</h1>
+    <div className='bg-[url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg)] flex justify-between p-2 bg-[#333] sticky top-0'> 
+      <div className='w-auto ml-10  h-10 '>
+        <h1 className='text-white text-lg h-full mt-1 '>solo with someone</h1>
       </div>
       <div className='-ml-20 w-auto'>
-      <button className=' border border-solid border-gray-500 bg-gray-500 w-24 rounded-md'>Login</button>
-      <button className=' border border-solid border-sky-500 bg-sky-500 w-24 rounded-md ml-6'>Sing Up</button>
+
       </div>
       <span className='flex w-[45%]'>
               <div className=''>
-                <p className=' ml-3 font-medium text-white '>Home</p>
+                <p className=' ml-3 mt-1 font-medium text-white '>Home</p>
               </div>
               <div className='ml-16'>
-                <p className='text-white '>About</p>
+                <p className='text-white mt-1'>About</p>
               </div>
               <div className='ml-16'>
-                <p className='text-white'>Term and Condidion</p>
+                <p className='text-white  mt-1'>Term and Condition</p>
               </div>
               <div className='ml-16'>
-                <p className='text-white'>Contact Us</p>
+                <p className='text-white mt-1'>Contact Us</p>
               </div>
               </span>
             </div>
