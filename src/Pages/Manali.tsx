@@ -5,15 +5,12 @@ function Manali() {
   return (
     <>
     
-        
-       
-    
     <Carousel>
   <CarouselContent>
     <div className='h-80 bg-white flex flex-wrap'>
     <CarouselItem>
     <div className='p-5'>
-            <p className='text-xl font-bold'>Best places of manali</p>
+            <p className='text-xl font-bold'>Best places of manali for visit</p>
          </div>
         
          <div className='flex'>
@@ -54,18 +51,18 @@ export const data = [
         img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
         username:"Rafting ",
     },
-    {
-        img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
-        username:"Rafting ",
-    },
-    {
-        img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
-        username:"Rafting ",
-    },
-    {
-        img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
-        username:"Rafting ",
-    }
+    // {
+    //     img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
+    //     username:"Rafting ",
+    // },
+    // {
+    //     img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
+    //     username:"Rafting ",
+    // },
+    // {
+    //     img:"https://www.tripsavvy.com/thmb/fCRRyZwLNk9OJl4i1kbYjs3WBd4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-503016485-5ae56d61ba61770036315d22.jpg",
+    //     username:"Rafting ",
+    // }
 ]
 
 export default Manali
