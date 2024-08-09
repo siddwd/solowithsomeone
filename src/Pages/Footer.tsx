@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-    <div className='bg-[url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg)] flex bg-bottom '>
+    <div className='bg-[url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg)] flex bg-bottom mt-32 border border-solid border-gray-500 '>
       <div className='ml-32 mt-20'>
         <div className='text-white text-lg'>About</div>
         <div className='mt-10 text-white'>Contact Us</div>

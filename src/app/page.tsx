@@ -7,7 +7,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-     <main className="flex flex-col bg-gray-50 items-center justify-between">
+     <main className="flex flex-col  bg-gray-50 items-center justify-between">
       <Adventure/>
       <Forest/>
       <Manali/>
