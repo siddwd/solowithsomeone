@@ -4,21 +4,28 @@ import React from 'react'
 function Goa() {
   return (
     <>
-     <div className='h-80 bg-white flex flex-wrap mt-32'>
+   <div className='h-80 bg-white flex flex-wrap mt-32'>
     <div className='p-5'>
-            <p className='text-xl font-bold'>Best places of goa for visit</p>
+            <p className='text-xl font-bold'>best place for visit in goa</p>
          </div>
-        
+         
          <div className='flex w-full'>
          {data.map((item)=>(
-         <div className='m-2 h-auto w-[24%] border border-solid border-gray-300 bg-white rounded-md'>
-            <img className='h-48 w-[80%] ml-8 mt-2' src={item.img} alt="" />
-            <h1 className='text-balance font-semibold ml-8 text-red-500'>{item.title}</h1>
-            <p className='text-xs ml-8 text-black'>{item.username}</p>
+         <div className='m-2 h-[21rem] w-[24%] border border-solid border-gray-300 rounded-md bg-white'>
+            <img className='h-40 mt-3 w-[80%] ml-8' src={item.img} alt="" />
+            <h1 className='text-balance font-semibold text-red-500 ml-8'>{item.title}</h1>
+            <p className='text-xs h-[7rem] text-black ml-8'>{item.username}</p>
+            <div className='border border-solid border-gray-300 w-[45%] ml-20  bg-red-500 flex'>
+         <button className='text-white text-sm'>READ MORE</button>
+         <img src="https://img.icons8.com/external-thin-kawalan-studio/24/external-triple-right-arrow-arrows-thin-kawalan-studio.png" alt=""/>
          </div>
-          ))}
          </div>
+         ))}
          </div>
+         
+         
+         </div>
+   
     </>
   )
 }

@@ -3,6 +3,7 @@ import Forest from "@/Pages/Forest";
 import Goa from "@/Pages/Goa";
 import Manali from "@/Pages/Manali";
 import Shimla from "@/Pages/Shimla";
+import Spiritual from "@/Pages/Spiritual";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,8 +12,9 @@ export default function Home() {
       <Adventure/>
       <Forest/>
       <Manali/>
-      <Shimla/>
+      <Shimla/>.
       <Goa/>
+      <Spiritual/>
      </main> 
   );
 }
