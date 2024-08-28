@@ -6,19 +6,19 @@ import React from 'react'
 function Manali() {
   return (
     <>
-      <div className='h-80 bg-white flex flex-wrap mt-32'>
+      <div className='h-80 bg-white flex flex-wrap mt-[9rem]'>
     <div className='p-5'>
             <p className='text-xl font-bold'>best place for visit in manali</p>
          </div>
          
          <div className='flex w-full'>
          {data.map((item)=>(
-         <div className='m-2 h-[21rem] w-[24%] border border-solid border-gray-300 rounded-md bg-white'>
-            <img className='h-40 mt-3 w-[80%] ml-8' src={item.img} alt="" />
-            <h1 className='text-balance font-semibold text-red-500 ml-8'>{item.title}</h1>
-            <p className='text-xs h-[7rem] text-black ml-8'>{item.username}</p>
-            <div className='border border-solid border-gray-300 w-[45%] ml-20  bg-red-500 flex'>
-         <button className='text-white text-sm'>READ MORE</button>
+         <div className='m-2 h-[22rem] w-[24%] border border-solid border-gray-300 rounded-md bg-white'>
+            <img className='h-40 mt-3 w-[80%] ml-8 cursor-pointer' src={item.img} alt="" />
+            <h1 className='text-balance font-semibold text-red-500 ml-8 mt-2 hover:text-red-300 cursor-pointer'>{item.title}</h1>
+            <p className='text-xs h-[7rem] text-black ml-8 cursor-pointer mt-2'>{item.username}</p>
+            <div className='border border-solid border-gray-300 w-[45%] ml-20 -mt-1 hover:bg-[#CCCCCC] cursor-pointer bg-red-500 flex'>
+         <button className='text-white text-sm ml-2'>READ MORE</button>
          <img src="https://img.icons8.com/external-thin-kawalan-studio/24/external-triple-right-arrow-arrows-thin-kawalan-studio.png" alt=""/>
          </div>
          </div>

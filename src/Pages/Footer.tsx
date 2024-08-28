@@ -1,11 +1,17 @@
+import { ChevronUp } from 'lucide-react'
 import React from 'react'
 
 function Footer() {
   return (
     <>
-    <div className='bg-[url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg)] flex bg-bottom mt-52 border border-solid border-gray-500 '>
-      <div className='ml-32 mt-20'>
-        <div className='text-white text-lg'>About</div>
+    <div className='bg-[url(https://cdn.pixabay.com/photo/2021/08/25/20/42/field-6574455_1280.jpg)] bg-bottom mt-52 '>
+    <div className='border border-solid border-black   w-full justify-center items-center bg-red-500 flex hover:bg-[#CCCCCC] cursor-pointer'>
+      <button className='text-center py-3'>Go To Top</button>
+      <ChevronUp/> 
+    </div>
+    <div className='flex  border border-solid border-gray-300 h-'>
+      <div className='ml-32 mt-20 '>
+        <div className='text-white text-lg '>About</div>
         <div className='mt-10 text-white'>Contact Us</div>
         <div className='text-white'>About Us</div>
         <div className='text-white'>Privat Policy</div>
@@ -14,9 +20,9 @@ function Footer() {
         <div className=''>
           <h1 className='text-lg text-white'>social media</h1>
           <div className='flex'>
-          <img className='size-6 mt-10 -' src="https://img.icons8.com/ios/50/FFFFFF/facebook-new.png" alt=""/>
-          <img className='size-6 mt-10 ml-3' src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v2.png" alt=""/>
-          <img className='size-6 mt-10 ml-3' src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" alt="" />
+          <img className='size-6 mt-10 cursor-pointer' src="https://img.icons8.com/ios/50/FFFFFF/facebook-new.png" alt=""/>
+          <img className='size-6 mt-10 ml-3 cursor-pointer' src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v2.png" alt=""/>
+          <img className='size-7 mt-10 ml-3 cursor-pointer' src="https://img.icons8.com/material-outlined/24/FFFFFF/instagram-new--v1.png" alt="" />
           </div>
          </div>
       </div>
@@ -31,6 +37,7 @@ function Footer() {
           <div>Term and Condition</div>
           <div>Contact Us</div>
         </div>
+      </div>
       </div>
       </div>
     </>

@@ -11,12 +11,12 @@ function Shimla() {
          
          <div className='flex w-full'>
          {data.map((item)=>(
-         <div className='m-2 h-[21rem] w-[24%] border border-solid border-gray-300 rounded-md bg-white'>
-            <img className='h-40 mt-3 w-[80%] ml-8' src={item.img} alt="" />
-            <h1 className='text-balance font-semibold text-red-500 ml-8'>{item.title}</h1>
-            <p className='text-xs h-[7rem] text-black ml-8'>{item.username}</p>
-            <div className='border border-solid border-gray-300 w-[45%] ml-20  bg-red-500 flex'>
-         <button className='text-white text-sm'>READ MORE</button>
+         <div className='m-2 h-[22rem] w-[24%] border border-solid border-gray-300 rounded-md bg-white'>
+            <img className='h-40 mt-3 w-[80%] ml-8 cursor-pointer' src={item.img} alt="" />
+            <h1 className='text-balance font-semibold text-red-500 ml-8 mt-2 hover:text-red-300 cursor-pointer'>{item.title}</h1>
+            <p className='text-xs h-[7rem] text-black ml-8 mt-2 cursor-pointer'>{item.username}</p>
+            <div className='border border-solid border-gray-300 w-[45%] ml-20 -mt-1 hover:bg-[#CCCCCC] cursor-pointer bg-red-500 flex'>
+         <button className='text-white text-sm ml-2'>READ MORE</button>
          <img src="https://img.icons8.com/external-thin-kawalan-studio/24/external-triple-right-arrow-arrows-thin-kawalan-studio.png" alt=""/>
          </div>
          </div>
@@ -48,7 +48,7 @@ export const data = [
     {
         img:"https://www.trawell.in/admin/images/upload/531957204Kali_Bari_Temple_Main.jpg",
         title:"Kali bari mandir ",
-        username:"Kali Bari Mandir is a Hindu temple situated on Bantony Hill, Shimla. The temple is dedicated to fearsome reincarnation of Goddess Kali, known as Shyamala, after which the Shimla city is named. The goddess is believed to have existed near Jakhoo."
+        username:"Kali Bari Mandir is a Hindu temple situated on Bantony Hill, Shimla. The temple is dedicated to fearsome reincarnation of Goddess Kali, known as Shyamala, after which the Shimla city is named."
     },
 ]
 
